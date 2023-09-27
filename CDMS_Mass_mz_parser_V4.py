@@ -183,7 +183,7 @@ parser.add_argument('-bm', '--bins_mass', default = 30)
 parser.add_argument('-bz', '--bins_charge', default = 300)
 parser.add_argument('-sf', '--smooth_function', default = 'gaussian')
 #parser.add_argument('-m', '--slope', required = True)
-#Please input a calibration coefficient from calibration curve, which is instrument and resolution dependednt
+#Please input a calibration coefficient from calibration curve, which is instrument dependednt
 parser.add_argument('-m', '--slope', default = 49051.84)
 args = parser.parse_args()
 
